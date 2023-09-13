@@ -1,6 +1,7 @@
 from selenium import webdriver
 import pytest
-from PageObjects.LoginPage import LoginPage
+from PythonSelenium_Framework import PageObjects
+import LoginPage
 
 class Test_001_Login:
 
